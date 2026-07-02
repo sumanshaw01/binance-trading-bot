@@ -1,0 +1,9 @@
+2026-07-02 12:21:33,139 - INFO - Input validated: MARKET BUY 0.001 BTCUSDT
+2026-07-02 12:21:33,142 - INFO - Authenticating with Binance Futures Testnet...
+2026-07-02 12:21:35,549 - INFO - Sending order payload to Binance: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-02 12:21:38,278 - INFO - SUCCESS! Order placed.
+2026-07-02 12:21:38,279 - INFO - Order ID: 18424394488 | Status: NEW | Executed Qty: 0.0000
+2026-07-02 12:22:04,483 - INFO - Input validated: LIMIT SELL 0.001 BTCUSDT
+2026-07-02 12:22:04,488 - INFO - Authenticating with Binance Futures Testnet...
+2026-07-02 12:22:05,644 - INFO - Sending order payload to Binance: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-07-02 12:22:06,665 - ERROR - Binance API Error: Limit price can't be lower than 57380.98.
